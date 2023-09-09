@@ -11,6 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 5%;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .header-container {
   width: 100%;
@@ -52,8 +54,9 @@ body {
   width: 15px;
 }
 .scroll-container {
+  max-width: 1920px;
   position: relative;
-  margin-top: calc(100vh - 425px);
+  margin: calc(100vh - 425px) auto;
 }
 .scroll-down {
   width: 100%;
@@ -120,6 +123,7 @@ body {
 }
 .services {
   display: flex;
+  margin: 0 auto;
 }
 .services-header {
   display: flex;
